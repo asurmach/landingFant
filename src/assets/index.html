@@ -5,13 +5,142 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/common.css">
-    <script src="./js/index.js" defer></script>
+    <script src="./js/index.js" async></script>
     <title>Document</title>
 </head>
 <body>
 <div class="container">
-    <div class="header">.header.layout</div>
-    <div class="main"></div>
+    <header class="header">
+        <div class="header layout">
+            <div class="header__logo">
+                <a class="header__logo logo" href="/">Fantastico</a>
+            </div>
+            <nav class="header__menu">
+                <ul class="header__menu menu">
+                    <li class="menu__item"><a href="/" class="menu__item link">Home</a></li>
+                    <li class="menu__item"><a href="/" class="menu__item link">About</a></li>
+                    <li class="menu__item"><a href="/" class="menu__item link">Features</a></li>
+                    <li class="menu__item"><a href="/" class="menu__item link">Work</a></li>
+                    <li class="menu__item"><a href="/" class="menu__item link">Support</a></li>
+                    <li class="menu__item"><a href="/" class="menu__item link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header content">
+            <div class="header__img">
+                <img src="./img/iphone-1.png" alt="iphone image" title="iphone">
+                <img src="./img/iphone-2.png" alt="iphone image" title="iphone">
+            </div>
+            <div class="header__text">
+                <h1 class="header__text heading">We design fun</h1>
+                <p class="header__text paragraph--important">Ut In Nulla Enim. Phasellus Molestie Magna Non Est Non Venenatis ut In Nulla Enim. Phasellus Molestie.</p>
+                <p class="header__text paragraph">Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie tempor. Suspendisse dictum feugiat.</p>
+                <a href="" class="header__text button">Contact us</a>
+                <p class="header__text paragraph">
+                    or <a href="/" class="showWorks link">See our work</a>
+                </p>
+            </div>
+        </div>
+        <div class="header list">
+            <ul class="header__list partners">
+                <li class="partners__item"><a href="#" class="partners__item link--logo1"></a></li>
+                <li class="partners__item"><a href="#" class="partners__item link--logo2"></a></li>
+                <li class="partners__item"><a href="#" class="partners__item link--logo3"></a></li>
+                <li class="partners__item"><a href="#" class="partners__item link--logo4"></a></li>
+                <li class="partners__item"><a href="#" class="partners__item link--logo5"></a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="main">
+        <section class="lorem">
+            <div class="lorem__list">
+                <header class="lorem__list heading">Lorem <mark>Ipsum dolor</mark> sit amet</header>
+                <ul class="lorem__list benefits">
+                    <li class="benefits__item">Lorem ipsum dolor sit amet</li>
+                    <li class="benefits__item">Consectetur adipiscing elit.</li>
+                    <li class="benefits__item">Donec vulputate velit a velit consect.</li>
+                    <li class="benefits__item">Praesent at accumsan elit.</li>
+                </ul>
+                <a href="/" class="lorem__list benefitsLink">See more benefits</a>
+            </div>
+            <div class="lorem__text">
+                <header class="lorem__text heading">Lorem Ipsum dolor <mark>Sit amet!</mark></header>
+                <p class="lorem__text paragraph">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                    vulputate velit a velit consectetur luctus. Etiam in malesuada turpis. Praesent at accumsan elit.
+                    Duis viverra neque eu odio lacinia semper. Sed id lectus lectus. Vivamus hendrerit vehicula ipsum in
+                    tincidunt. Morbi porttitor venenatis diam, in sodales odio sagittis eu. Nulla nec eros purus. Etiam
+                    purus massa, egestas vitae consequat non, rhoncus gravida orci”</p>
+                <p class="lorem__text sign">Vladimir Plutin</p>
+                <p class="lorem__text signDescribe">President, Rambo man, World savior</p>
+            </div>
+        </section>
+        <section class="workflow">
+            <ul class="workflow-list">
+                <li class="workflow-list__item item--research">
+                    <header class="workflow-list__heading">Research</header>
+                    <p class="workflow-list__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.</p>
+                    <a href="/" class="workflow-list__button">Read more</a>
+                </li>
+                <li class="workflow-list__item item--usability">
+                    <header class="workflow-list__heading">Usability</header>
+                    <p class="workflow-list__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. </p>
+                    <a href="/" class="workflow-list__button">Read more</a>
+                </li>
+                <li class="workflow-list__item item--design">
+                    <header class="workflow-list__heading">Design</header>
+                    <p class="workflow-list__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. </p>
+                    <a href="/" class="workflow-list__button">Read more</a>
+                </li>
+            </ul>
+        </section>
+        <section class="advantages">
+            <ul class="advantages-list">
+                <li class="advantages-list__item item--research">
+                    <header class="advantages-list__heading">Professional target analyzing</header>
+                    <p class="advantages-list__paragraph">Phasellus sollicitudin gravida nisl, mollis feugiat metus tincidunt in. Pellentesque id sem convallis urna vehicula imperdiet. Aliquam venenatis commodo malesuada laoreet, pellentesque at mauris erat volutpat.</p>
+                    <p class="advantages-list__paragraph">Estique <a href="/" class="advantages-list__link">dova lormae</a></p>
+                </li>
+                <li class="advantages-list__item item--usability">
+                    <header class="advantages-list__heading">Stay focus and reach your goal!</header>
+                    <p class="advantages-list__paragraph">Nullam sed ante ac magna commodo ullamcorper. Integer sagittis, mauris eget blandit congue, urna lorem pulvinar metus, eu facilisis dui lectus et urna. Donec diam turpis, elementum a congue non, euismod eget lorem.</p>
+                    <p class="advantages-list__paragraph">Deu <a href="/" class="advantages-list__link">malou lelopa</a></p>
+                </li>
+                <li class="advantages-list__item item--design">
+                    <header class="advantages-list__heading">Your data is safe with us</header>
+                    <p class="advantages-list__paragraph">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Do integer tortor ante, ornare sed dignissim posu ere, aliquam ut est.Vestibulum porta ornare vestibulum.</p>
+                    <p class="advantages-list__paragraph">Estique <a href="/" class="advantages-list__link">dova lormae</a></p>
+                </li>
+            </ul>
+        </section>
+        <section class="projects">
+            <header class="projects-heading">Selected projects</header>
+            <ul class="projects-list">
+                <li class="projects-list__item"><img src="./img/project1.jpg" alt="project1" title="project1"></li>
+                <li class="projects-list__item"><img src="./img/project2.jpg" alt="project2" title="project2"></li>
+                <li class="projects-list__item"><img src="./img/project3.jpg" alt="project3" title="project3"></li>
+                <li class="projects-list__item"><img src="./img/project4.jpg" alt="project4" title="project4"></li>
+            </ul>
+        </section>
+    </div>
+    <footer class="footer">
+        <nav class="footer-nav">
+            <ul class="footer-menu">
+                <li class="footer-menu__item"><a href="/" class="footer-menu__link">About</a></li>
+                <li class="footer-menu__item"><a href="/" class="footer-menu__link">Features</a></li>
+                <li class="footer-menu__item"><a href="/" class="footer-menu__link">Work</a></li>
+                <li class="footer-menu__item"><a href="/" class="footer-menu__link">Support</a></li>
+                <li class="footer-menu__item"><a href="/" class="footer-menu__link">Contact</a></li>
+            </ul>
+        </nav>
+        <ul class="footer-social">
+            <li class="footer-social__item"><a href="/" class="footer-social__button button--fb"></a></li>
+            <li class="footer-social__item"><a href="/" class="footer-social__button button--tw"></a></li>
+            <li class="footer-social__item"><a href="/" class="footer-social__button button--in"></a></li>
+            <li class="footer-social__item"><a href="/" class="footer-social__button button--be"></a></li>
+            <li class="footer-social__item"><a href="/" class="footer-social__button button--dr"></a></li>
+        </ul>
+        <p class="footer-copyright">&copy; 2018 CompanyName</p>
+    </footer>
 </div>
 </body>
 </html>
